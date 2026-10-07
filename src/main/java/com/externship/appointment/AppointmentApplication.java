@@ -20,6 +20,7 @@ public class AppointmentApplication {
 	        registry.addResourceHandler("/**")
 	        .addResourceLocations("classpath:/static/","classpath:/img/")
 	        .setCachePeriod(0);
+	        
 	    }
 	}
 
